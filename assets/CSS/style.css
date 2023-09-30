@@ -1,0 +1,118 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: verdana;
+  color: rgb(59, 59, 63);
+}
+header {
+  color: red !important; /* Use !important to ensure it takes precedence */
+}
+header, footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(20, 80, 88);
+  color: rgb(145, 213, 230);
+  font-family: verdana;
+  border-bottom: solid rgba(50, 220, 183, 1) 10px;
+  text-align: right;
+  
+  
+}
+
+h4 {
+    color: rgb(224, 250, 243);
+    text-align: left;
+    display: inline-block;
+    font-family: verdana;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+
+.title {
+    color: rgb(59, 59, 63);
+    font-family: verdana;
+    
+  }
+
+  img {
+    width: 20%;
+    height: auto;
+    margin: 70px;
+    display: center;
+  }
+  #relative-box {
+    position: relative;
+    left: 425px;
+  }
+
+ /*contact form */
+
+ #contact {
+  background-color: rgb(226, 195, 174);
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+  border: 2px solid rgb(68, 51, 51);
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.form-group {
+  display: flex;
+  align-items: center; /* Vertically align label and input */
+  margin-bottom: 5px;
+ 
+}
+
+label {
+  display: inline-block;
+  width: 150; 
+  margin-right: 10px; 
+  font-weight: bold;
+  font-family: verdana;
+  color: rgb(59, 59, 63);
+  text-align: left;
+ 
+}
+
+input[type="text"],
+input[type="email"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  display: block;
+  
+}
+
+
+
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  position: relative;
+    left: 120px;
+  
+}
+
+footer {
+  background-color: rgb(20, 80, 88);
+  color: #b6cece;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+ 
