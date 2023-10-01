@@ -8,6 +8,13 @@ h3 {
 header {
   color: red !important; /* Use !important to ensure it takes precedence */
 }
+
+/* Links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 header, footer {
   width: 100%;
   height: 60px;
