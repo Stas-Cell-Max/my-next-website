@@ -5,15 +5,13 @@ h3 {
   font-family: verdana;
   color: rgb(59, 59, 63);
 }
-header {
-  color: red !important; /* Use !important to ensure it takes precedence */
-}
 
-/* Links */
-a {
-    color: #ffffff;
+header {
+  color: #ffffff;
     text-decoration: none;
 }
+
+
 
 header, footer {
   width: 100%;
